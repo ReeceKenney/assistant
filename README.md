@@ -1,1 +1,1 @@
-# assistant
+# @reecekenney/assistant

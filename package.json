@@ -1,0 +1,27 @@
+{
+  "name": "@reecekenney/assistant",
+  "version": "1.0.0",
+  "description": "Package containing assistant related functionality.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ReeceKenney/assistant.git"
+  },
+  "author": "Reece Kenney",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ReeceKenney/assistant/issues"
+  },
+  "homepage": "https://github.com/ReeceKenney/assistant#readme",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "type": "module",
+  "dependencies": {
+    "openai": "^3.2.1"
+  }
+}
